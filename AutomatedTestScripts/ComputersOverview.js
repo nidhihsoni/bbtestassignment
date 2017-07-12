@@ -34,7 +34,7 @@ describe('Computer Overview Home Page', function() {
 		computeroverview.searchButton.click();
 		expect(computeroverview.heading.getText()).toContain('One computer found');
 	});
-	it('Computeroverview Homepage Regression : TestCase04 : Search functionality must return propeer message if match is not found', function(){
+	it('Computeroverview Homepage Regression : TestCase04 : Search functionality must return proper message if match is not found', function(){
 		var computeroverview = new computerOverviewPage();
 		computeroverview.get();
 		computeroverview.searchComputerNameInput.sendKeys('                                           ');
