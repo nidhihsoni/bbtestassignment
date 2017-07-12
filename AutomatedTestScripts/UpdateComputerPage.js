@@ -10,11 +10,9 @@ var updateComputerPage = function(){
 	this.discontinuedDateInput = element(by.id('discontinued'));
 	this.companyLabelInput = element(by.id('company'));
 	this.updateComputerButton = element(by.css('[value="Save this computer"]'));	
-	//this.cancelButton = element.all(by.css('.btn')).last();
 	this.cancelButton = element(by.linkText('Cancel'));
 	this.updateComputerError = element(by.css('[class="clearfix error"]'));
-	this.deleteButton = element(by.css('[value="Delete this computer"]')); 
-	//this.updateComputerError = element(by.css('.clearfix.error'));
+	this.deleteButton = element(by.css('[value="Delete this computer"]')); 	
 };
 var computerOverviewHomePage = function() { 
         this.get = function(){ 
@@ -22,7 +20,6 @@ var computerOverviewHomePage = function() {
         }; 
         this.searchComputerNameInput = element(by.id('searchbox')); 
         this.searchButton = element(by.id('searchsubmit')); 
-        //this.statusMessage = element(by.css('.alert-message')); 
 }; 
 var homepageAfterUpdate = function() {
 	this.heading = element(by.id('main')).element(by.css('h1'));	
