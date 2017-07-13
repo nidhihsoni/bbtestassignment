@@ -2,8 +2,8 @@
 
 ### Prerequisites
 
-1. Instal Node.js from https://nodejs.org/en/ , you can check version using command 'node -v'
-2. Instal NPM from https://www.npmjs.com/ , you can check existence or version using command 'npm -v'
+1. Install Node.js from https://nodejs.org/en/ , you can check version using command 'node -v'
+2. Install NPM from https://www.npmjs.com/ , you can check existence or version using command 'npm -v'
 
 ### Protractor Setup Instruction
 
