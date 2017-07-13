@@ -20,7 +20,7 @@ Please access the following sample application - http://computer-database.heroku
 
 ### Test Solutioning 
 
-* "ManualTestScenarios.xls" workbook contains two work sheets, Test Cases and Bugs. 
+* "ManualTestScenarios.xls" workbook contains two work sheets, CRUD_Test Case and Observations. 
 * "AutomatedTestScripts" folder contains scripts to automate test cases which would be included in a automated regression test 
 
 
